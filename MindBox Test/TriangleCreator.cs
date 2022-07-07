@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace MindBox_Test
 {
-    public class TriangleCreator : FigureCreator
+    /// <summary>
+    /// Создатель треугольника
+    /// </summary>
+    public class TriangleCreator : ShapeCreator
     {
-        public override IFigure CreateFigure(params double[] args)
+        public override IShape CreateFigure(params double[] args)
         {
             if (args.Length == 3 &&
                 args[0] > 0 && args[1] > 0 && args[2] > 0 &&

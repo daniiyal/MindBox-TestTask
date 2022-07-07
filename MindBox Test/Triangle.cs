@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MindBox_Test
 {
-    public class Triangle : IFigure
+    /// <summary>
+    /// Класс треугольника реализует интерфейс фигуры
+    /// </summary>
+    public class Triangle : IShape
     {
         double sideA, sideB, sideC;
         public Triangle(double sideA, double sideB, double sideC)

@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBox Test", "MindBox Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBoxTest UnitTest", "MindBoxTest UnitTest\MindBoxTest UnitTest.csproj", "{4344382D-7A55-4358-887E-C54E8D01D52B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MindBox Task 2", "MindBox Task 2", "{16CC0549-8DD2-41A3-A0F1-93E8FCCFE7B0}"
+	ProjectSection(SolutionItems) = preProject
+		task2.sql = task2.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

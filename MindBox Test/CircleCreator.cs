@@ -1,8 +1,11 @@
 ﻿namespace MindBox_Test
 {
-    public class CircleCreator : FigureCreator
+    /// <summary>
+    /// Создатель окружности
+    /// </summary>
+    public class CircleCreator : ShapeCreator
     {
-        public override IFigure CreateFigure(params double[] args)
+        public override IShape CreateFigure(params double[] args)
         {
             if (args.Length == 1 && args[0] > 0)
                 return new Circle(args[0]);

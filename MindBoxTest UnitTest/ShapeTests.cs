@@ -2,7 +2,7 @@ namespace MindBoxTest_UnitTest
 {
     public class AreaCalcTests
     {
-        public double GetArea(FigureCreator creator, params double[] args)
+        public double GetArea(ShapeCreator creator, params double[] args)
         {
             if (creator.GetType() == typeof(CircleCreator))
             {
@@ -20,7 +20,7 @@ namespace MindBoxTest_UnitTest
             }
         }
 
-
+        
         [Fact]
         public void Calc_Circle_Area()
         {

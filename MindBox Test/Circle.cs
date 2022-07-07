@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MindBox_Test
 {
-    public class Circle : IFigure
+    /// <summary>
+    /// Класс треугольника реализует интерфейс фигуры
+    /// </summary>
+    public class Circle : IShape
     {
         double radius;
 
