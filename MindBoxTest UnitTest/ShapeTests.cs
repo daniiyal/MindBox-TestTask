@@ -1,5 +1,8 @@
 namespace MindBoxTest_UnitTest
 {
+    /// <summary>
+    /// Юнит-тесты xUnit для проверки правильности вычисления площадей и определения прямоугольности треугольника
+    /// </summary>
     public class AreaCalcTests
     {
         public double GetArea(ShapeCreator creator, params double[] args)
